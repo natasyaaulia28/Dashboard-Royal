@@ -9,7 +9,6 @@ body {
     background-color: #f0f4f9;
 }
 
-
 .dashboard-container {
     display: grid;
     grid-template-columns: 240px 1fr;
@@ -19,7 +18,6 @@ body {
         "menu main";
     min-height: 100vh;
 }
-
 
 .header {
     grid-area: header;
@@ -43,7 +41,6 @@ body {
     border-radius: 4px;
 }
 
-
 .menu {
     grid-area: menu;
     background-color: #1a4fba;
@@ -66,14 +63,6 @@ body {
     background-color: #14429e;
 }
 
-.menu ul li a.menu-settings {
-    text-color: #3399ff;
-}
-
-.menu ul li a.menu-signout {    
-    text-color: #ffeb3b;
-}
-    
 .menu-aktif {
     background-color: #0f3482 !important;
     border-left: 5px solid white;
@@ -116,14 +105,12 @@ body {
     object-fit: cover;
 }
 
-
 .warna-teks {
     color: #14429e !important;
     background-color: rgba(255, 255, 255, 0.2);
     padding: 2px 5px;
     border-radius: 3px;
 }
-
 
 .content-grid {
     display: grid;
@@ -148,18 +135,15 @@ body {
     color: #333;
 }
 
-
 .warna-kartu {
     background-color: #e3f2fd !important;
     border: 2px solid #1a4fba !important;
 }
 
-
 .box-aside { grid-area: aside; }
 .box-section1 { grid-area: section1; }
 .box-section2 { grid-area: section2; }
 .box-footer { grid-area: footer; }
-
 
 .chart-img {
     max-width: 100%;
@@ -196,4 +180,24 @@ body {
     color: #1a4fba;
     text-decoration: none;
     font-weight: bold;
+}
+
+/* WARNA KHUSUS SETTINGS (BIRU CERAH) */
+.menu ul li a.menu-settings {
+    color: #3399ff !important;
+}
+
+.menu ul li a.menu-settings:hover {
+    color: #3399ff !important;
+    background-color: #14429e;
+}
+
+/* WARNA KHUSUS SIGN OUT (KUNING JINGGA) */
+.menu ul li a.menu-signout {
+    color: #ffc107 !important;
+}
+
+.menu ul li a.menu-signout:hover {
+    color: #ffc107 !important;
+    background-color: #14429e;
 }
