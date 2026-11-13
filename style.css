@@ -78,6 +78,10 @@ body {
     padding: 20px;
 }
 
+.menu-signout {
+    color: #ffc107 !important;
+}
+
 .banner {
     background-color: #1a4fba;
     color: white;
