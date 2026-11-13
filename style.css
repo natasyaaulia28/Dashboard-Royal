@@ -66,6 +66,11 @@ body {
     background-color: #14429e;
 }
 
+.menu ul li a.menu-settings,
+.menu ul li a.menu-signout {
+    color: #ffc107 !important;
+}
+
 
 .menu-aktif {
     background-color: #0f3482 !important;
@@ -189,14 +194,4 @@ body {
     color: #1a4fba;
     text-decoration: none;
     font-weight: bold;
-}
-
-.menu-settings,
-.menu-signout {
-    color: #ffc107 !important;
-}
-
-.menu-settings:hover,
-.menu-signout:hover {
-    color: #ffc107 !important;
 }
