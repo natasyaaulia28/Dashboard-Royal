@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        
+        <header class="header">
+            <h1>Royal Dashboard</h1>
+            <input type="text" placeholder="Cari Ke Dokumen Akses..." />
+        </header>
+
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="#" id="menu-home">Home</a></li>
+                <li><a href="#" id="menu-mahasiswa">Mahasiswa</a></li>
+                <li><a href="#" id="menu-kelas">Kelas</a></li>
+                <li><a href="#" id="menu-progress">Progress</a></li>
+                <li><a href="#" id="menu-aktifitas">Aktifitas</a></li>
+                <li><a href="#" id="menu-statistik">Statistik</a></li>
+                <li><a href="#" id="menu-lampiran">Lampiran</a></li>
+                <li><a href="#" id="menu-settings">Settings</a></li>
+                <li><a href="#" id="menu-signout">Sign Out</a></li>
+            </ul>
+        </nav>
+
+        
+        <main class="main">
+          
+            <div class="banner">
+                <div class="banner-text">
+                    <h2>Selamat Datang, <span id="teks-nama">Natasya Aulia R. Butar Butar</span></h2>
+                    <h2><span id="teks-kelas">Kelas SI-3C</span></h2>
+                    <p>Kamu memiliki Statistik, 3 Progres Kelas, 4 Aktifitas Selanjutnya dan 3 Lampiran Dokumen.</p>
+                </div>
+                <div class="avatar-box">
+                    <img src="Foto_Natasya.png" alt="Foto Profil" class="foto-profil">
+                </div>
+            </div>
+
+            
+            <div class="content-grid">
+                
+                <aside class="card box-aside" id="card-statistik">
+                    <h3>Statistik Mahasiswa</h3>
+                    <img src="Chart_Statistik.svg" alt="Grafik Statistik" class="chart-img">
+                </aside>
+
+                
+                <section class="card box-section1" id="card-progress">
+                    <h3>Progres Kelas</h3>
+                    <div class="item">Matakuliah Desain Web <br><small>78 Pendaftar</small></div>
+                    <div class="item">Matakuliah RPL <br><small>30 Pendaftar</small></div>
+                    <div class="item">Matakuliah Jaringan Komputer <br><small>40 Pendaftar</small></div>
+                    <div class="item">Matakuliah APSI <br><small>10 Pendaftar</small></div>
+                </section>
+
+              
+                <section class="card box-section2" id="card-aktifitas">
+                    <h3>Aktifitas Selanjutnya</h3>
+                    <div class="item">Perkuliahan Daring 1 <br><small>Senin, 15 Januari 2025</small></div>
+                    <div class="item">Perkuliahan Daring 1 <br><small>Selasa, 15 Februari 2025</small></div>
+                    <div class="item">Perkuliahan Daring 1 <br><small>Rabu, 15 Maret 2025</small></div>
+                    <div class="item">Perkuliahan Daring 1 <br><small>Kamis, 15 April 2025</small></div>
+                </section>
+
+               
+                <footer class="card box-footer" id="card-lampiran">
+                    <h3>Lampiran</h3>
+                    <div class="lampiran-item">Lampiran Dokumen 1 - Matakuliah Desain Web <a href="#">Lihat Dokumen</a></div>
+                    <div class="lampiran-item">Lampiran Dokumen 2 - Matakuliah RPL <a href="#">Lihat Dokumen</a></div>
+                    <div class="lampiran-item">Lampiran Dokumen 3 - Matakuliah Jaringan Komputer <a href="#">Lihat Dokumen</a></div>
+                </footer>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
