@@ -67,11 +67,11 @@ body {
 }
 
 .menu ul li a.menu-settings {
-    color: #b0c4de;
+    text-color: #3399ff;
 }
 
 .menu ul li a.menu-signout {    
-    color: #ffeb3b;
+    text-color: #ffeb3b;
 }
     
 .menu-aktif {
