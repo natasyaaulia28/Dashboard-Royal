@@ -1,4 +1,3 @@
-
 const menuHome = document.getElementById("menu-home");
 const menuMahasiswa = document.getElementById("menu-mahasiswa");
 const menuKelas = document.getElementById("menu-kelas");
@@ -7,7 +6,7 @@ const menuAktifitas = document.getElementById("menu-aktifitas");
 const menuStatistik = document.getElementById("menu-statistik");
 const menuLampiran = document.getElementById("menu-lampiran");
 const menuSettings = document.getElementById("menu-settings");
-
+const menuSignout = document.getElementById("menu-signout");
 
 const teksNama = document.getElementById("teks-nama");
 const teksKelas = document.getElementById("teks-kelas");
@@ -15,7 +14,6 @@ const cardProgress = document.getElementById("card-progress");
 const cardAktifitas = document.getElementById("card-aktifitas");
 const cardStatistik = document.getElementById("card-statistik");
 const cardLampiran = document.getElementById("card-lampiran");
-
 
 function resetSemua() {
     menuHome.className = "";
@@ -25,7 +23,8 @@ function resetSemua() {
     menuAktifitas.className = "";
     menuStatistik.className = "";
     menuLampiran.className = "";
-    menuSettings.className = "";
+    menuSettings.className = "menu-settings";
+    menuSignout.className = "menu-signout";
 
     teksNama.className = "";
     teksKelas.className = "";
@@ -35,13 +34,11 @@ function resetSemua() {
     cardLampiran.className = "card box-footer";
 }
 
-
 menuHome.addEventListener("click", function(e) {
     e.preventDefault();
     resetSemua();
     menuHome.className = "menu-aktif";
 });
-
 
 menuMahasiswa.addEventListener("click", function(e) {
     e.preventDefault();
@@ -50,14 +47,12 @@ menuMahasiswa.addEventListener("click", function(e) {
     teksNama.className = "warna-teks";
 });
 
-
 menuKelas.addEventListener("click", function(e) {
     e.preventDefault();
     resetSemua();
     menuKelas.className = "menu-aktif";
     teksKelas.className = "warna-teks";
 });
-
 
 menuProgress.addEventListener("click", function(e) {
     e.preventDefault();
@@ -66,14 +61,12 @@ menuProgress.addEventListener("click", function(e) {
     cardProgress.classList.add("warna-kartu");
 });
 
-
 menuAktifitas.addEventListener("click", function(e) {
     e.preventDefault();
     resetSemua();
     menuAktifitas.className = "menu-aktif";
     cardAktifitas.classList.add("warna-kartu");
 });
-
 
 menuStatistik.addEventListener("click", function(e) {
     e.preventDefault();
@@ -82,7 +75,6 @@ menuStatistik.addEventListener("click", function(e) {
     cardStatistik.classList.add("warna-kartu");
 });
 
-
 menuLampiran.addEventListener("click", function(e) {
     e.preventDefault();
     resetSemua();
@@ -90,10 +82,16 @@ menuLampiran.addEventListener("click", function(e) {
     cardLampiran.classList.add("warna-kartu");
 });
 
-
 menuSettings.addEventListener("click", function(e) {
     e.preventDefault();
     resetSemua();
-    menuSettings.className = "menu-aktif";
+    menuSettings.className = "menu-settings menu-aktif";
     cardLampiran.classList.add("warna-kartu");
+});
+
+menuSignout.addEventListener("click", function(e) {
+    e.preventDefault();
+    resetSemua();
+    menuSignout.className = "menu-signout menu-aktif";
+    cardStatistik.classList.add("warna-kartu");
 });
