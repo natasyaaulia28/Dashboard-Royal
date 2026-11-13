@@ -73,6 +73,13 @@ body {
     font-weight: bold;
 }
 
+.menu-settings {
+    color: #ffffff;
+}
+
+.menu-sign-out {
+    color: #ffffff;
+}
 
 .main {
     grid-area: main;
