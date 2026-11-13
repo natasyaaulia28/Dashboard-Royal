@@ -66,11 +66,12 @@ body {
     background-color: #14429e;
 }
 
-.menu ul li a.menu-settings,
-.menu ul li a.menu-signout {
+.menu ul li a.menu-settings {
     color: #ffc107 !important;
 }
 
+.menu ul li a.menu-signout    
+    color: #ffeb3b !important;
 
 .menu-aktif {
     background-color: #0f3482 !important;
