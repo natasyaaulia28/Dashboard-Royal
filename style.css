@@ -78,10 +78,6 @@ body {
     padding: 20px;
 }
 
-.menu-signout {
-    color: #ffc107 !important;
-}
-
 .banner {
     background-color: #1a4fba;
     color: white;
@@ -193,4 +189,14 @@ body {
     color: #1a4fba;
     text-decoration: none;
     font-weight: bold;
+}
+
+.menu-settings,
+.menu-signout {
+    color: #ffc107 !important;
+}
+
+.menu-settings:hover,
+.menu-signout:hover {
+    color: #ffc107 !important;
 }
