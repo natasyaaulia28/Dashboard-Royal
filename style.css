@@ -73,19 +73,10 @@ body {
     font-weight: bold;
 }
 
-.menu-settings {
-    color: #ffffff;
-}
-
-.menu-sign-out {
-    color: #1565C0;
-}
-
 .main {
     grid-area: main;
     padding: 20px;
 }
-
 
 .banner {
     background-color: #1a4fba;
