@@ -93,5 +93,4 @@ menuSignout.addEventListener("click", function(e) {
     e.preventDefault();
     resetSemua();
     menuSignout.className = "menu-signout menu-aktif";
-    cardStatistik.classList.add("warna-kartu");
 });
