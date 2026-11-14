@@ -91,6 +91,6 @@ menuSettings.addEventListener("click", function(e) {
 
 menuSignout.addEventListener("click", function(e) {
     e.preventDefault();
-    resetSemua();
+    resetSemua(); // Mereset semua tampilan kartu ke posisi semula
     menuSignout.className = "menu-signout menu-aktif";
 });
