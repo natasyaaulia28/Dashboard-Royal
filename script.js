@@ -86,7 +86,6 @@ menuSettings.addEventListener("click", function(e) {
     e.preventDefault();
     resetSemua();
     menuSettings.className = "menu-settings menu-aktif";
-    cardLampiran.classList.add("warna-kartu");
 });
 
 menuSignout.addEventListener("click", function(e) {
