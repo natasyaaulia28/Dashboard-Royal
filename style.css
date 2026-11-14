@@ -182,7 +182,7 @@ body {
     font-weight: bold;
 }
 
-
+/* WARNA KHUSUS SETTINGS (BIRU CERAH) */
 .menu ul li a.menu-settings {
     color: #3399ff !important;
 }
@@ -192,7 +192,7 @@ body {
     background-color: #14429e;
 }
 
-
+/* WARNA KHUSUS SIGN OUT (KUNING JINGGA) */
 .menu ul li a.menu-signout {
     color: #ffc107 !important;
 }
